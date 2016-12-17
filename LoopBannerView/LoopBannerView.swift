@@ -104,8 +104,6 @@ class LoopBannerView: UIView , UICollectionViewDelegate, UICollectionViewDataSou
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let page = scrollView.contentOffset.x / kWidth
         currentPage = Int(page)
-        //        pageControl.currentPage  = Int(page) - 1
-        //        print("scrollViewDidScroll - \(currentPage)")
     }
     
     func nextPage() {
